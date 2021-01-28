@@ -11,7 +11,7 @@ app.use(express.static(PUBLIC_DIR));
 app.use(express.json());
 
 const ports = {
-  'items': 1000,
+  'item': 1000,
   'ultbought': 2000,
   'alsoliked': 2000,
   'reviews': 3000,
